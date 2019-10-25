@@ -110,36 +110,24 @@ following layers:
 | Layer         		|     Description	        					        |
 |:---------------------:|:-----------------------------------------------------:|
 | Input         		| 32x32x3 RGB image   							        | 
-| Convolution1  5x5
-| 1x1 stride, VALID padding, outputs 28x28x12           |
-| RELU					|
-|
+| Convolution1  5x5| 1x1 stride, VALID padding, outputs 28x28x12           |
+| RELU					|    |
 | Dropout				|												        |
-| Convolution2  3X3     | 1x1 stride,
-VALID padding, outputs 26x26x24           |
-| RELU					|
-|
+| Convolution2  3X3     | 1x1 stride, VALID padding, outputs 26x26x24           |
+| RELU					|   |
 | Dropout				|												        |
-| Max pooling	      	| 2x2 size, 2x2
-stride, VALID padding, outputs 13x13x24	|
-| Convolution3  3x3	    | 1x1 stride,
-VALID padding, outputs 11x11x48           |
+| Max pooling	      	| 2x2 size, 2x2 stride, VALID padding, outputs 13x13x24	|
+| Convolution3  3x3	    | 1x1 stride, VALID padding, outputs 11x11x48           |
 | RELU					|												        |
-|
-Dropout				|												        |
-| Max pooling	      	| 2x2 size, 2x2 stride,
-VALID padding, outputs 5x5x48	|
-| Flatten       		| outputs 1200
-|
+| Dropout				|												        |
+| Max pooling	      	| 2x2 size, 2x2 stride, VALID padding, outputs 5x5x48	|
+| Flatten       		| outputs 1200 |
 | Fully connected		| outputs 500       									|
-| RELU					|
-|
+| RELU					|   |
 | Fully connected		| outputs 84        									|
-| RELU					|
-|
+| RELU					|   |
 | Fully connected		| outputs 43        									|
-| Logits				| outputs 43
-|
+| Logits				| outputs 43 |
  
 
 #### 3. Describe how I trained my model. 
