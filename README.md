@@ -1,4 +1,9 @@
 ## Project: Build a Traffic Sign Recognition Program
+## Deep Learning
+## Result
+本程序实现一个可以识别交通标志的卷积神经网络，输入为一张32 * 32的彩色图像，输出为43种交通标志的预测结果。
+
+![result](./imgae6.jpg)
 
 Overview
 ---
