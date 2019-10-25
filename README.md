@@ -13,8 +13,9 @@ can classify traffic sign images using the [German Traffic Sign
 Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After
 the model is trained, you will then try out your model on images of German
 traffic signs that you find on the web.
+This is a [pickled dataset](https://pan.baidu.com/s/1jCT8Z-6FQJwJeCJKCpaNmQ), Used in this project.  
 
-The project code and description are contained in Traffic_Sign_Classifie.ipynb.
+The project code and description are contained in **Traffic_Sign_Classifie.ipynb**.
 
 The Project
 ---
@@ -52,8 +53,8 @@ Kit. Click [here](https://github.com/GuoliangPeng/CarND-Term1-Starter-Kit/blob/m
 
 ### Dataset and Repository
 
-1.Download the data set. This is a pickled dataset in which we've already resized
-the images to 32x32. It contains a training, validation and test set.  
+1. Download the data set. This is a [pickled dataset](https://pan.baidu.com/s/1jCT8Z-6FQJwJeCJKCpaNmQ) in which we've already resized
+the images to 32x32. It contains a training, validation and test set. The unzipped folder is placed in the project directory.
 2. Clone the project, which contains the Ipython notebook.
 
 ```{.python .input .sh}
@@ -135,7 +136,7 @@ following layers:
 开始的时候使用了0.003的学习率，，训练20次，模型的验证集准确度波动较大，所以我将学习率减小，并
 设定训练集的dropout=0.83
 
-#### 4.Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. 
+#### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. 
 Include in the discussion the results on the
 training, validation and test sets and where in the code these were calculated.
 My approach may have been an iterative process, in which case, outline the
@@ -166,7 +167,7 @@ If an iterative approach was chosen:
 
 ### Test a Model on New Images
 
-#### 1.Choose ten German traffic signs found on
+#### 1. Choose ten German traffic signs found on
 the web and provide them in the report. For each image, discuss what quality or
 qualities might be difficult to classify.
 
@@ -208,9 +209,8 @@ notebook.
 
 ### (Optional)
 Visualizing the Neural Network
-(See
-Step 4 of the Ipython notebook for more
-details)
+(See Step 4 of the Ipython notebook for more details)
+
 #### 1. Discuss the visual
 output of your trained network's feature
 maps. What characteristics did the
