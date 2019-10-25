@@ -49,7 +49,7 @@ Kit. Click [here](https://github.com/GuoliangPeng/CarND-Term1-Starter-Kit/blob/m
 ### Dataset and Repository
 
 1.Download the data set. This is a pickled dataset in which we've already resized
-the images to 32x32. It contains a training, validation and test set.
+the images to 32x32. It contains a training, validation and test set.  
 2. Clone the project, which contains the Ipython notebook.
 
 ```{.python .input .sh}
@@ -93,15 +93,7 @@ showing sample distribution of train data sets.
 
 ### Design and Test a Model Architecture
 
-#### 1. Describe how I preprocessed the image data. What techniques were chosen and why did you choose these techniques?
-Consider including images showing the output of each preprocessing technique.
-Pre-processing refers to techniques such as converting to grayscale,
-normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part
-of the rubric, if you generated additional data for training, describe why you
-decided to generate additional data, how you generated the data, and provide
-example images of the additional data. Then describe the characteristics of the
-augmented training set like number of images in the set, number of images for
-each class, etc.)
+#### 1. Describe how I preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
 Minimally, the image data should be normalized so that the
 data has mean zero and equal variance. For image data, (pixel - 128)/ 128 is a
