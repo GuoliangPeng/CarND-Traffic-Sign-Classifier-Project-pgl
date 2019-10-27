@@ -88,12 +88,12 @@ is 43
 Here is an
 exploratory visualization of the data set. 
 It is a bar chart showing sample
-distribution within different data sets.
+distribution within different data sets:
 
 ![alt text][image1]
 
 It is a bar chart
-showing sample distribution of train data sets.
+showing sample distribution of train data sets:
 ![alt text][image2]
 
 ### Design and Test a Model Architecture
