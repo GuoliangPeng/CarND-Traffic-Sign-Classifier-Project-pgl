@@ -204,7 +204,7 @@ making
 predictions on my final model is located in the cell of the Ipython
 notebook.
 
-![alt text][image6]
+![](https://github.com/GuoliangPeng/CarND-Traffic-Sign-Classifier-Project-pgl/blob/master/image6.jpg)
 
 
 
